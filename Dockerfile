@@ -11,3 +11,4 @@
 FROM scratch
 ADD http://geec-client.s3.amazonaws.com/runner /runner
 ADD ./integer_divide /integer_divide
+ADD ./runner /runner
