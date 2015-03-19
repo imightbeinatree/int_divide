@@ -10,4 +10,3 @@
 
 FROM scratch
 ADD ./integer_divide /integer_divide
-ADD ./runner /runner
