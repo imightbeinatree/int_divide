@@ -27,4 +27,4 @@ microservice:
   outputs:
     result:
       param_type: 'Numeric'
-      description: 'quotient'
+      description: 'result'
