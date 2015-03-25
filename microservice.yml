@@ -1,0 +1,30 @@
+microservice:
+  name: 'quotient'
+  description: 'divide whole integers and leave off the remainder'
+  docker_image: 'imightbeinatree/quotient'
+  docker_image_tag: '0.1'
+  github_url: 'https://github.com/imightbeinatree/int_divide'
+  docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/quotient/'
+  category: 'math'
+  tags: ['math', 'division', 'integers']
+  developer_name: 'imbiat'
+  developer_type: 'User'
+  published: true
+  command: '/integer_divide [num1] [num2]'
+  inputs:
+    num1:
+      param_type: 'Numeric'
+      regex: '^[0-9]+$'
+      required: true
+      secure: false
+      description: 'dividend'
+    num2:
+      param_type: 'Numeric'
+      regex: '^[0-9]+$'
+      required: true
+      secure: false
+      description: 'divisor'
+  outputs:
+    result:
+      param_type: 'Numeric'
+      description: 'quotient'

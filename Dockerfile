@@ -10,3 +10,4 @@
 
 FROM scratch
 ADD ./integer_divide /integer_divide
+ADD ./microservice.yml /microservice.yml
