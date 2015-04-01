@@ -1,8 +1,9 @@
 microservice:
+  spec_version: '2.0'
   name: 'quotient'
   description: 'divide whole integers and leave off the remainder'
   docker_image: 'imightbeinatree/quotient'
-  docker_image_tag: '0.1'
+  docker_image_tag: '0.2'
   github_url: 'https://github.com/imightbeinatree/int_divide'
   docker_hub_url: 'https://registry.hub.docker.com/u/imightbeinatree/quotient/'
   category: 'math'
